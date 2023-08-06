@@ -21,3 +21,24 @@ function duplicateCount(text){
   }
   return arr.length
 }
+
+// function countDuplicateCharsAndDigits(input) {
+//   const charCount = {};
+//   const lowerInput = input.toLowerCase();
+  
+//   for (let i = 0; i < lowerInput.length; i++) {
+//       const char = lowerInput[i];
+//       if ((char >= 'a' && char <= 'z') || (char >= '0' && char <= '9')) {
+//           charCount[char] = charCount[char] ? charCount[char] + 1 : 1;
+//       }
+//   }
+
+//   let count = 0;
+//   for (let char in charCount) {
+//       if (charCount[char] > 1) {
+//           count++;
+//       }
+//   }
+
+//   return count;
+// }
