@@ -18,5 +18,7 @@ function isDivisible(n, ...args) {
       }
   }
 
+  //updated
+
   return true; 
 }
